@@ -1,8 +1,8 @@
 # Data Analysis Projects
 
-This repository is a growing portfolio of practical data analysis projects using SQL, Python, exploratory data analysis, dashboard development, and business-oriented communication.
+This repository is a growing collection of practical data analysis projects using SQL, Python, exploratory data analysis, dashboard development, and business-oriented communication.
 
-The goal of this portfolio is to demonstrate the complete analytical workflow: understanding a business problem, preparing data, performing analysis, creating visual outputs, documenting the process clearly, and communicating insights in a professional way.
+The goal of this collection is to demonstrate the complete analytical workflow: understanding a business problem, preparing data, performing analysis, creating visual outputs, documenting the process clearly, and communicating insights.
 
 ---
 
@@ -83,7 +83,6 @@ The project covers:
 - Identifying high-performing and low-performing areas
 - Exploring the difference between high sales and actual profitability
 - Creating visual summaries to support business interpretation
-- Documenting findings in a way that is clear for portfolio reviewers and business stakeholders
 
 For the full project documentation, see [`Sales_Profit_Analysis/README.md`](Sales_Profit_Analysis/README.md).
 
@@ -123,27 +122,7 @@ The project covers:
 
 This project is still in progress and will be expanded as the pipeline, analysis queries, and documentation mature.
 
----
-
-### Report Data Analysis
-
-The `report_data_analysis` folder is intended for report-style analysis work, where the final output is not only code but also a clear written explanation of findings, assumptions, limitations, and recommendations.
-
-The project area covers:
-
-- Structuring analysis around a clear question or reporting objective
-- Cleaning and preparing data for written analysis
-- Creating visual summaries for reports
-- Translating exploratory findings into written insights
-- Documenting assumptions and limitations
-- Communicating analytical results for non-technical readers
-- Building portfolio-ready reports that show both analysis and communication skill
-
-For the full project documentation, see [`report_data_analysis/README.md`](report_data_analysis/README.md).
-
----
-
-## Technical Stack
+### Technical Stack
 
 | Area | Tools |
 |---|---|
@@ -155,53 +134,6 @@ For the full project documentation, see [`report_data_analysis/README.md`](repor
 | Environment Management | python-dotenv, Conda or virtual environments |
 | Version Control | Git, GitHub |
 | Documentation | Markdown, project README files, documentation style guide |
-
----
-
-## How to Use This Repository
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/ElihleN/data_analysis.git
-cd data_analysis
-```
-
-### 2. Review the project documentation
-
-Start with the project-level README files. They explain the purpose of each project, the workflow, the expected inputs, and how to reproduce or extend the analysis.
-
-### 3. Run project files in order
-
-For SQL-to-dashboard projects, the usual workflow is:
-
-1. Prepare the database and clean the imported data.
-2. Create reusable SQL views and summary tables.
-3. Connect the dashboard script to the database.
-4. Run the dashboard locally.
-
-For notebook-based projects, the usual workflow is:
-
-1. Open the main notebook.
-2. Review the data loading and cleaning steps.
-3. Run the exploratory analysis sections.
-4. Review the visualisations and interpretations.
-5. Read the final findings or recommendations.
-
----
-
-## Documentation Approach
-
-The documentation in this repository follows a technical documentation style:
-
-- Start with the purpose and business context.
-- Explain the workflow before showing implementation details.
-- Document assumptions, inputs, outputs, and dependencies.
-- Provide reproducible setup instructions where possible.
-- Use clear headings and concise explanations.
-- Separate business interpretation from technical implementation.
-
-For documentation standards used in this repository, see [`docs/documentation_style_guide.md`](docs/documentation_style_guide.md).
 
 ---
 
@@ -218,23 +150,6 @@ The work is especially relevant for roles involving:
 - Junior machine learning or data science preparation
 - Technical documentation for analytical systems
 
----
-
-## Next Improvements
-
-Planned improvements for this portfolio include:
-
-- Adding screenshots of dashboard outputs
-- Adding sample result summaries for each project
-- Creating a `requirements.txt` file for easier environment setup
-- Adding more project-level README files as new projects are added
-- Adding a short case-study summary for each completed analysis
-- Expanding the ongoing NYC taxi SQL/Python analysis documentation
-
----
-
 ## Author
 
 Maintained by [ElihleN](https://github.com/ElihleN).
-
-This portfolio reflects an applied approach to data analysis: clean the data carefully, structure the workflow clearly, document the process professionally, and communicate insights in a way that supports decision-making.
