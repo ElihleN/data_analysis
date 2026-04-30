@@ -2,8 +2,7 @@
 
 This project demonstrates an end-to-end data analysis workflow for a global retail sales dataset. The aim is to transform raw transactional data into reliable, analysis-ready tables and an interactive dashboard that supports business performance review.
 
-The project combines SQL-based data preparation with Python dashboard development. It is documented as a reproducible analytics workflow so that another analyst can understand the data pipeline, reproduce the analysis, and extend the dashboard.
-
+The project combines SQL-based data preparation with Python dashboard development.
 ---
 
 ## Project Objectives
@@ -34,27 +33,7 @@ This project is designed around practical business questions, including:
 
 ---
 
-## Workflow Overview
-
-```text
-Raw imported table
-        ↓
-SQL cleaning and type conversion
-        ↓
-Data quality checks
-        ↓
-Cleaned analytical table
-        ↓
-Reusable SQL views and summary tables
-        ↓
-Python database connection
-        ↓
-Interactive Dash dashboard
-```
-
----
-
-## Files in This Project
+#### Files in this work
 
 | File | Purpose |
 |---|---|
@@ -66,7 +45,7 @@ Interactive Dash dashboard
 
 ---
 
-## Data Preparation Summary
+#### Data Preparation Summary
 
 The SQL workflow prepares the raw imported sales table for analysis by:
 
@@ -170,8 +149,6 @@ DB_HOST=localhost
 DB_NAME=global_superstoreDB
 ```
 
-Do not commit real passwords or private credentials to GitHub.
-
 ### 4. Run the dashboard
 
 Run the preferred dashboard version:
@@ -181,50 +158,3 @@ python dash_v2.py
 ```
 
 Then open the local Dash URL displayed in the terminal.
-
----
-
-## Technical Skills Demonstrated
-
-This project demonstrates:
-
-- SQL data cleaning and transformation
-- MySQL database preparation
-- Data type conversion and date parsing
-- Missing-value and duplicate-record checks
-- Analytical SQL aggregation
-- Creation of reusable SQL views
-- Creation of dashboard-ready summary tables
-- Python-to-MySQL connection using SQLAlchemy
-- Secure configuration with environment variables
-- Interactive dashboard development with Dash and Plotly
-- Documentation of a reproducible analytics workflow
-
----
-
-## Notes and Assumptions
-
-- The raw dataset is assumed to be imported into MySQL before the SQL scripts are run.
-- The SQL scripts assume a MySQL environment.
-- The dashboard assumes that the SQL views and summary tables have already been created.
-- The `.env` file is required for database credentials.
-- The project focuses on data analysis and dashboarding, not predictive modelling.
-
----
-
-## Suggested Future Improvements
-
-Possible future improvements include:
-
-- Add dashboard screenshots to the README
-- Add a sample insights section with final business observations
-- Add a `requirements.txt` file
-- Add a database schema diagram
-- Add error-handling around the dashboard database connection
-- Add a short notebook that explains the analysis visually step by step
-
----
-
-## Project Status
-
-This project is suitable as a portfolio case study for data analysis, business intelligence, analytics engineering foundations, and technical documentation practice.
