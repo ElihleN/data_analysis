@@ -25,6 +25,14 @@ This repository highlights the following skills:
 ```text
 data_analysis/
 ├── README.md
+├── Market_Campaign_Analysis
+│   ├── README.md
+│   ├── EDA_campaign_analysis.ipynb
+│   ├── ML_prediction_analysis.ipynb
+├── Sales_Profit_Analysis
+│   ├── README.md
+│   ├── Sales_data_analysis.ipynb
+│   ├── Sales_data_deep_analysis.ipynb
 ├── global_onlinestore/
 │   ├── README.md
 │   ├── data_cleaning.sql
