@@ -135,20 +135,6 @@ This project is still in progress and will be expanded as the pipeline, analysis
 | Version Control | Git, GitHub |
 | Documentation | Markdown, project README files, documentation style guide |
 
----
-
-## Portfolio Value
-
-This repository presents practical analytics workflows rather than isolated code snippets. It shows the ability to move from raw data to cleaned data, from cleaned data to analysis-ready outputs, and from analysis-ready outputs to reporting, dashboards, or business recommendations.
-
-The work is especially relevant for roles involving:
-
-- Data analysis
-- Business intelligence
-- Analytics engineering support
-- Data-driven reporting
-- Junior machine learning or data science preparation
-- Technical documentation for analytical systems
 
 ## Author
 
