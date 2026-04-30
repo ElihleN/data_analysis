@@ -31,16 +31,6 @@ This project can help answer questions such as:
 
 ---
 
-## Files in This Folder
-
-| File | Purpose |
-|---|---|
-| `Sales_data_analysis.ipynb` | Main analysis notebook for exploring sales and profit performance, creating summary statistics, and visualising key patterns. |
-| `Sales_data_deep_analysis.ipynb` | Extended analysis notebook for deeper investigation of sales/profit behaviour, business segments, and more detailed analytical questions. |
-
----
----
-
 ## Metrics
 
 | Metric | Description |
