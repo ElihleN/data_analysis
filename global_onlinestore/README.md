@@ -1,7 +1,6 @@
 # Global Online Store Analytics
 
 This project demonstrates an end-to-end data analysis workflow for a global retail sales dataset. The aim is to transform raw transactional data into reliable, analysis-ready tables and an interactive dashboard that supports business performance review. The project combines SQL-based data preparation with Python dashboard development.
----
 
 ## Project Objectives
 
@@ -15,7 +14,6 @@ The main objectives of this project are to:
 - Connect Python to MySQL using environment variables
 - Build an interactive dashboard for exploring sales, profit, customers, countries, and segments
 
----
 
 ## Business Questions
 
@@ -29,7 +27,7 @@ This project is designed around practical business questions, including:
 - Which products or sub-categories may be associated with losses?
 - How do shipping modes relate to order volume, sales, profit, and shipping cost?
 
----
+
 
 #### Files in this work
 
@@ -41,7 +39,7 @@ This project is designed around practical business questions, including:
 | `dash_app.py` | Builds an interactive Dash dashboard with a dropdown-based chart selector and KPI cards. |
 | `dash_v2.py` | Provides a cleaner tab-based dashboard version with pre-built Plotly figures and KPI cards. |
 
----
+
 
 #### Data Preparation Summary
 
@@ -59,7 +57,6 @@ The SQL workflow prepares the raw imported sales table for analysis by:
 - Creating a cleaned table that keeps one row per order-product combination
 - Running sanity checks on date ranges and numeric fields
 
----
 
 ## Analytical Outputs
 
@@ -94,7 +91,6 @@ The SQL scripts generate outputs for several areas of analysis:
 - Sales and profit by shipping mode
 - Average shipping cost by shipping mode
 
----
 
 ## Dashboard Summary
 
@@ -112,7 +108,6 @@ The dashboard includes:
 
 `dash_v2.py` is the recommended version for presentation because it uses a cleaner tab-based layout.
 
----
 
 ## Setup Instructions
 
