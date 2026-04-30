@@ -1,14 +1,11 @@
-# Data Analysis Portfolio
+# Data Analysis Projects
 
-A professional portfolio of data analysis projects that demonstrate practical skills in SQL, Python, data cleaning, exploratory data analysis, dashboard development, and business-oriented communication.
-
-This repository is designed to show not only technical ability, but also the ability to document analytical workflows clearly. Each project is written so that another analyst, recruiter, or technical reviewer can understand the business question, the data preparation process, the analytical approach, and the final output.
-
+In these projects I explore practical data analysis  in SQL, Python through data cleaning, exploratory data analysis, dashboard development, and business-oriented communication. This is a learning project imitating real-world data analysis collection.  
 ---
 
-## Portfolio Focus
+##Skillset
 
-This repository highlights the following skills:
+In the collection, I explore the follolwing tasks:
 
 - Data cleaning and transformation using SQL
 - Exploratory data analysis for business decision-making
@@ -16,8 +13,8 @@ This repository highlights the following skills:
 - Dashboard development with Python, Dash, and Plotly
 - Database connection management using environment variables
 - Clear documentation of workflows, assumptions, and reproducibility steps
-- Communication of technical results for non-technical stakeholders
-
+- Communication of technical results
+  
 ---
 
 ## Repository Structure
@@ -102,50 +99,17 @@ For SQL-to-dashboard projects, the usual workflow is:
 3. Connect the dashboard script to the database.
 4. Run the dashboard locally.
 
-Detailed instructions are included inside each project folder.
 
 ---
 
 ## Documentation Approach
 
-The documentation in this repository follows a technical documentation style:
-
-- Start with the purpose and business context.
-- Explain the workflow before showing implementation details.
-- Document assumptions, inputs, outputs, and dependencies.
-- Provide reproducible setup instructions.
-- Use clear headings and concise explanations.
-- Separate business interpretation from technical implementation.
-
-This makes the repository easier to review and also demonstrates communication skills that are important in data analysis, machine learning, and technical documentation roles.
 
 ---
 
 ## Portfolio Value
 
-This repository presents a practical analytics workflow rather than isolated code snippets. It shows the ability to move from raw data to cleaned data, from cleaned data to analysis-ready outputs, and from analysis-ready outputs to interactive reporting.
-
-The work is especially relevant for roles involving:
-
-- Data analysis
-- Business intelligence
-- Analytics engineering support
-- Data-driven reporting
-- Junior machine learning or data science preparation
-- Technical documentation for analytical systems
-
----
-
-## Next Improvements
-
-Planned improvements for this portfolio include:
-
-- Adding screenshots of dashboard outputs
-- Adding sample result summaries for each project
-- Creating a `requirements.txt` file for easier environment setup
-- Adding more project-level README files as new projects are added
-- Adding a short case-study summary for each completed analysis
-
+Th
 ---
 
 ## Author
