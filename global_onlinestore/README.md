@@ -1,8 +1,6 @@
 # Global Online Store Analytics
 
-This project demonstrates an end-to-end data analysis workflow for a global retail sales dataset. The aim is to transform raw transactional data into reliable, analysis-ready tables and an interactive dashboard that supports business performance review.
-
-The project combines SQL-based data preparation with Python dashboard development.
+This project demonstrates an end-to-end data analysis workflow for a global retail sales dataset. The aim is to transform raw transactional data into reliable, analysis-ready tables and an interactive dashboard that supports business performance review. The project combines SQL-based data preparation with Python dashboard development.
 ---
 
 ## Project Objectives
